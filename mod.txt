@@ -1,0 +1,13 @@
+{
+    "name": "Pink-Theme",
+    "description": "This mod makes a pink theme",
+    "author": "Skyline",
+    "version": "1.0",
+    "priority": 100,
+    "hooks": [
+        {
+            "hook_id": "lib/managers/menumanager",
+            "script_path": "mod.lua"
+        }
+    ]
+}
